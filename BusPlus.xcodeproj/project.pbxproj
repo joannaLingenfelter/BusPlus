@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		633AF7DF27A3256C008D4442 /* SwiftUI_5_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF7DE27A3256C008D4442 /* SwiftUI_5_5App.swift */; };
-		633AF7E127A3256C008D4442 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF7E027A3256C008D4442 /* ContentView.swift */; };
+		633AF7DF27A3256C008D4442 /* BusPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF7DE27A3256C008D4442 /* BusPlus.swift */; };
+		633AF7E127A3256C008D4442 /* BusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF7E027A3256C008D4442 /* BusListView.swift */; };
 		633AF7E327A3256E008D4442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633AF7E227A3256E008D4442 /* Assets.xcassets */; };
 		633AF7E627A3256E008D4442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633AF7E527A3256E008D4442 /* Preview Assets.xcassets */; };
+		633AF7ED27A327CF008D4442 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF7EC27A327CF008D4442 /* Bus.swift */; };
+		633AF7EF27A3284D008D4442 /* URLSession+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF7EE27A3284D008D4442 /* URLSession+Additions.swift */; };
+		633AF7F127A32A3A008D4442 /* BusRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF7F027A32A3A008D4442 /* BusRow.swift */; };
+		633AF80E27A99DB2008D4442 /* MyTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633AF80D27A99DB2008D4442 /* MyTicketView.swift */; };
+		63FF5E722857B0D800E3BE8E /* BusListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF5E712857B0D800E3BE8E /* BusListViewModel.swift */; };
+		63FF5E742857B89700E3BE8E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF5E732857B89600E3BE8E /* APIClient.swift */; };
+		63FF5E762857B91E00E3BE8E /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF5E752857B91E00E3BE8E /* AppContext.swift */; };
+		63FF5E782857BD9600E3BE8E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF5E772857BD9600E3BE8E /* AppState.swift */; };
+		63FF5E7A2857CAA900E3BE8E /* APIInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF5E792857CAA900E3BE8E /* APIInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		633AF7DB27A3256C008D4442 /* SwiftUI-5.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-5.5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		633AF7DE27A3256C008D4442 /* SwiftUI_5_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_5_5App.swift; sourceTree = "<group>"; };
-		633AF7E027A3256C008D4442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		633AF7DB27A3256C008D4442 /* BusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633AF7DE27A3256C008D4442 /* BusPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPlus.swift; sourceTree = "<group>"; };
+		633AF7E027A3256C008D4442 /* BusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusListView.swift; sourceTree = "<group>"; };
 		633AF7E227A3256E008D4442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		633AF7E527A3256E008D4442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		633AF7EC27A327CF008D4442 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		633AF7EE27A3284D008D4442 /* URLSession+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Additions.swift"; sourceTree = "<group>"; };
+		633AF7F027A32A3A008D4442 /* BusRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRow.swift; sourceTree = "<group>"; };
+		633AF80D27A99DB2008D4442 /* MyTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketView.swift; sourceTree = "<group>"; };
+		63FF5E712857B0D800E3BE8E /* BusListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusListViewModel.swift; sourceTree = "<group>"; };
+		63FF5E732857B89600E3BE8E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		63FF5E752857B91E00E3BE8E /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		63FF5E772857BD9600E3BE8E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		63FF5E792857CAA900E3BE8E /* APIInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +53,7 @@
 		633AF7D227A3256C008D4442 = {
 			isa = PBXGroup;
 			children = (
-				633AF7DD27A3256C008D4442 /* SwiftUI-5.5 */,
+				633AF7DD27A3256C008D4442 /* BusPlus */,
 				633AF7DC27A3256C008D4442 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +61,29 @@
 		633AF7DC27A3256C008D4442 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				633AF7DB27A3256C008D4442 /* SwiftUI-5.5.app */,
+				633AF7DB27A3256C008D4442 /* BusPlus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		633AF7DD27A3256C008D4442 /* SwiftUI-5.5 */ = {
+		633AF7DD27A3256C008D4442 /* BusPlus */ = {
 			isa = PBXGroup;
 			children = (
-				633AF7DE27A3256C008D4442 /* SwiftUI_5_5App.swift */,
-				633AF7E027A3256C008D4442 /* ContentView.swift */,
+				633AF7DE27A3256C008D4442 /* BusPlus.swift */,
+				63FF5E772857BD9600E3BE8E /* AppState.swift */,
+				633AF7E027A3256C008D4442 /* BusListView.swift */,
+				63FF5E712857B0D800E3BE8E /* BusListViewModel.swift */,
+				63FF5E752857B91E00E3BE8E /* AppContext.swift */,
+				63FF5E732857B89600E3BE8E /* APIClient.swift */,
+				63FF5E792857CAA900E3BE8E /* APIInteractor.swift */,
+				633AF80D27A99DB2008D4442 /* MyTicketView.swift */,
+				633AF7F027A32A3A008D4442 /* BusRow.swift */,
+				633AF7EC27A327CF008D4442 /* Bus.swift */,
+				633AF7EE27A3284D008D4442 /* URLSession+Additions.swift */,
 				633AF7E227A3256E008D4442 /* Assets.xcassets */,
 				633AF7E427A3256E008D4442 /* Preview Content */,
 			);
-			path = "SwiftUI-5.5";
+			path = BusPlus;
 			sourceTree = "<group>";
 		};
 		633AF7E427A3256E008D4442 /* Preview Content */ = {
@@ -70,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		633AF7DA27A3256C008D4442 /* SwiftUI-5.5 */ = {
+		633AF7DA27A3256C008D4442 /* BusPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633AF7E927A3256E008D4442 /* Build configuration list for PBXNativeTarget "SwiftUI-5.5" */;
+			buildConfigurationList = 633AF7E927A3256E008D4442 /* Build configuration list for PBXNativeTarget "BusPlus" */;
 			buildPhases = (
 				633AF7D727A3256C008D4442 /* Sources */,
 				633AF7D827A3256C008D4442 /* Frameworks */,
@@ -82,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-5.5";
+			name = BusPlus;
 			productName = "SwiftUI-5.5";
-			productReference = 633AF7DB27A3256C008D4442 /* SwiftUI-5.5.app */;
+			productReference = 633AF7DB27A3256C008D4442 /* BusPlus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 633AF7D627A3256C008D4442 /* Build configuration list for PBXProject "SwiftUI-5.5" */;
+			buildConfigurationList = 633AF7D627A3256C008D4442 /* Build configuration list for PBXProject "BusPlus" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				633AF7DA27A3256C008D4442 /* SwiftUI-5.5 */,
+				633AF7DA27A3256C008D4442 /* BusPlus */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633AF7E127A3256C008D4442 /* ContentView.swift in Sources */,
-				633AF7DF27A3256C008D4442 /* SwiftUI_5_5App.swift in Sources */,
+				633AF80E27A99DB2008D4442 /* MyTicketView.swift in Sources */,
+				63FF5E782857BD9600E3BE8E /* AppState.swift in Sources */,
+				633AF7F127A32A3A008D4442 /* BusRow.swift in Sources */,
+				63FF5E7A2857CAA900E3BE8E /* APIInteractor.swift in Sources */,
+				633AF7E127A3256C008D4442 /* BusListView.swift in Sources */,
+				63FF5E742857B89700E3BE8E /* APIClient.swift in Sources */,
+				633AF7ED27A327CF008D4442 /* Bus.swift in Sources */,
+				633AF7EF27A3284D008D4442 /* URLSession+Additions.swift in Sources */,
+				633AF7DF27A3256C008D4442 /* BusPlus.swift in Sources */,
+				63FF5E762857B91E00E3BE8E /* AppContext.swift in Sources */,
+				63FF5E722857B0D800E3BE8E /* BusListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-5.5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BusPlus/Preview Content\"";
 				DEVELOPMENT_TEAM = N9E7Q8W5PW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jolingenfelter.SwiftUI-5-5";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolingenfelter.BusPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,7 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-5.5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BusPlus/Preview Content\"";
 				DEVELOPMENT_TEAM = N9E7Q8W5PW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +347,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jolingenfelter.SwiftUI-5-5";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jolingenfelter.BusPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		633AF7D627A3256C008D4442 /* Build configuration list for PBXProject "SwiftUI-5.5" */ = {
+		633AF7D627A3256C008D4442 /* Build configuration list for PBXProject "BusPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633AF7E727A3256E008D4442 /* Debug */,
@@ -331,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633AF7E927A3256E008D4442 /* Build configuration list for PBXNativeTarget "SwiftUI-5.5" */ = {
+		633AF7E927A3256E008D4442 /* Build configuration list for PBXNativeTarget "BusPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633AF7EA27A3256E008D4442 /* Debug */,
